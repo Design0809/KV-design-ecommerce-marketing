@@ -1,0 +1,13 @@
+interface:
+  display_name: "KV design"
+  short_description: "匹配产品与品牌设计电商主视觉，精确核验尺寸，先审查样图再延展交付"
+  default_prompt: "使用 $kv-design，根据我的产品与品牌资料设计有电商广告表现力的主视觉，先生成精确符合指定尺寸和比例的样图供我审查，通过后再进行最终延展交付。"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
