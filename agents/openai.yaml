@@ -1,7 +1,7 @@
 interface:
   display_name: "KV design"
-  short_description: "突出商品、核心广告语与首发价，结合功能可视化设计电商主视觉并精确核验交付"
-  default_prompt: "使用 $kv-design，根据我的商品图、品牌资料和参考图设计电商主视觉，先筛选核心购买理由并联合安排产品、标题、价格与辅助卖点，生成符合指定尺寸的样图供我审查，通过后完成约定延展。"
+  short_description: "支持销售转化与品牌产品两类主视觉，三案卡片选择后成图，准确呈现商品、Logo 与卖点并核验交付"
+  default_prompt: "使用 $kv-design，根据我的商品与品牌资料确定主视觉类型，在 G1 提供三种构图与风格方案及 D 不满意选项，我选择后制作样图并按指定尺寸、格式和数量交付，完成后询问是否需要其他视角、卖点图或详情页。"
   icon_small: "assets/icon.svg"
   icon_large: "assets/icon.svg"
 policy:
