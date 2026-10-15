@@ -1,7 +1,7 @@
 interface:
   display_name: "KV design"
-  short_description: "匹配产品与品牌设计电商主视觉，精确核验尺寸，先审查样图再延展交付"
-  default_prompt: "使用 $kv-design，根据我的产品与品牌资料设计有电商广告表现力的主视觉，先生成精确符合指定尺寸和比例的样图供我审查，通过后再进行最终延展交付。"
+  short_description: "突出商品、核心广告语与首发价，结合功能可视化设计电商主视觉并精确核验交付"
+  default_prompt: "使用 $kv-design，根据我的商品图、品牌资料和参考图设计电商主视觉，先筛选核心购买理由并联合安排产品、标题、价格与辅助卖点，生成符合指定尺寸的样图供我审查，通过后完成约定延展。"
   icon_small: "assets/icon.svg"
   icon_large: "assets/icon.svg"
 policy:
